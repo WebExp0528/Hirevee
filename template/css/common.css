@@ -1,0 +1,583 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #818181;
+}
+
+/********************	Google Translate Top Bar	***********************/
+body {
+	position: static !important;
+	top: 0px !important;
+	color: #303030;
+}
+
+.goog-te-banner-frame {
+	display: none !important
+}
+
+.goog-te-gadget-icon {
+	background: url("../images/icon_trans1.png") no-repeat !important;
+}
+
+#google_translate_element {
+	text-align: center;
+}
+
+/********************	Google Translate Top Bar	***********************/
+/**************************************************************************/
+.google_trans {
+	min-height: 30px;
+	padding-top: 50px;
+}
+
+.signform {
+	float: left;
+}
+
+footer {
+	background: #C1C9D0;
+}
+
+label.error {
+	float: none;
+	color: red;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+footer hr {
+	border-color: #D4D9DE;
+	text-align: center;
+	height: 0.1em;
+	width: auto;
+}
+
+.popular_post_box {
+	width: 180px;
+	height: 150px;
+	border: solid 1px #000000;
+}
+
+.caption_color {
+	color: #A20E30;
+}
+
+.link_color {
+	color: #0077C6;
+}
+
+dl {
+	margin: 0 0 0 0;
+}
+
+dt,dd {
+	text-align: left;
+	vertical-align: baseline;
+	height: 40px;
+	width: 300px;
+	padding: 10px 0px 0px 0px;
+	margin-right: 100px;
+	max-width: 1000px;
+}
+
+em {
+	color: red;
+}
+
+.error_msg {
+	color: red;
+	margin: 5px 10px;
+}
+
+.inline {
+	display: inline;
+}
+
+/*
+progress {
+	
+	-webkit-border-top-right-radius: 4px;
+	         border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	         border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+
+}
+*/
+/*------------------------------------------------------|	howto.html	|------------------------------------------------------*/
+.sign_label {
+	width: 300px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.sign_info {
+	width: 300px;
+}
+
+.top_title_big {
+	margin-top: 20px;
+	color: #ffffff;
+	font-size: 55px;
+	float: left;
+	padding: 10px;
+}
+
+.top_title_small {
+	float: left;
+	padding: 10px;
+	color: #c8c8c8;
+	font-size: large;
+}
+
+.howtomenu_box {
+	text-align: left;
+	font: bold;
+}
+
+.signup_body {
+	margin: 60px;
+}
+
+.signup_btn {
+	margin: 10px 0 0 0;
+}
+
+.signup_btn button {
+	width: 100%;
+	height: 50px;
+}
+
+.signup_btn b {
+	font-size: 21px;
+}
+
+.howto_side_nav,.howto_side_contents {
+	margin: 30px 0 0 0;
+}
+
+.howto_post_pic {
+	float: right;
+	margin: 0 0 30px 10px;
+	border: thin;
+	border-style: outset;
+	"
+}
+
+.post_content_text {
+	text-align: left;
+}
+
+.submit_form_button {
+	margin-bottom: 50px;
+}
+
+.submit_form_button div button {
+	width: 100%;
+	height: 45px;
+}
+
+.submit_form_button div b {
+	font-size: 21px;
+}
+
+/*------------------------------------------------------|	howto.html	|------------------------------------------------------*/
+.sign_up_free {
+	margin: 30px;
+}
+
+.sign_up_title {
+	font-size: 25px;
+	font-weight: bold;
+	color: #a30628;
+}
+
+/*------------------------------------------------------|	emp_start.html  (include<header>)	|------------------------------------------------------*/
+.head_breadcrumb {
+	height: 40px;
+}
+
+.empstart_header {
+	width: auto;
+	height: 270px;
+	background: url("../images/emp_start_header_bar.png") repeat-x;
+}
+
+.header {
+	width: auto;
+	min-height: 270px;
+	background: url("../images/blog_header_bar.gif") repeat-x;
+}
+
+.header_logo {
+	margin-top: 15px;
+	float: left;
+	min-width: 200px;
+	height: 66px;
+	background: url("../images/hirevee_logo.png") no-repeat top center;
+}
+.blog_header_mark {
+	clear: right;
+	float: right;
+	width: 131px;
+	height: 131px;
+}
+
+.header_link {
+	float: left;
+	margin: 40px 0px 0px 0px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.header_link a {
+	margin: 0 10px 0 10px;
+}
+
+.header_mark {
+	background: url("../images/header_mark.png") no-repeat top right;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 0px;
+	left: 100%;
+	z-index: 1000;
+}
+
+.header_image {
+	float: right;
+}
+
+.header_search {
+	margin: 50px 240px 0 0;
+}
+
+.emp_welcome h1 {
+	color: #a20e30;
+}
+
+.empstart_button {
+	height: 45px;
+	width: 210px;
+	margin-top: 55px;
+	font-size: 25px;
+}
+
+/*------------------------------------------------------|	emp_start.html	|------------------------------------------------------*/
+/*------------------------------------------------------|	blog.html	(include<footer>)	|------------------------------------------------------*/
+.signup_form {
+	margin: 30px 0 30px 0;
+}
+
+.blog_editor,.blog_editor_submit {
+	margin-left: 20px;
+}
+
+.blog_editor_header {
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.comment-author-name {
+	color: #a20e30;
+	font-size: 13px;
+}
+
+.comment-post-date {
+	color: #919090;
+	font-size: 12px;
+}
+
+.face_icon {
+	height: 24px;
+	width: 24px;
+	background: url("../images/face.png") no-repeat;
+	margin: 0px 5px;
+}
+
+.twitter_icon {
+	height: 24px;
+	width: 24px;
+	background: url("../images/twitter.png") no-repeat;
+	margin: 0px 5px;
+}
+
+.skype_icon {
+	height: 24px;
+	width: 24px;
+	background: url("../images/skype.png") no-repeat;
+	margin: 0px 5px;
+}
+
+.linked_icon {
+	height: 24px;
+	width: 24px;
+	background: url("../images/in.png") no-repeat;
+	margin: 0px 5px;
+}
+
+.blog_contents {
+	margin: 30px 0 10px 0;
+	text-align: left;
+	width: 1420px;
+	height: auto;
+}
+
+.blog_left {
+	width: 650px;
+	height: auto;
+}
+
+.blog_right {
+	width: 210px;
+	height: auto;
+}
+
+.blog_image img {
+	width: 210px;
+	height: 140px;
+}
+
+.blog_content_img img {
+	margin: 10px;
+	float: right;
+	width: 310px;
+	height: 240px;
+}
+
+.catigory_list{
+	font-size: 20px;
+	padding: 10px 0 5px 0;
+	border-bottom: solid 1px #ccc;
+}
+
+.innnerBlog_content {
+	width: 100%;
+	height: 500px;
+	overflow: auto;
+}
+
+.post_pic {
+	float: left;
+	width: 210px;
+	height: 143px;
+}
+
+.blog_subject {
+	color: #1a8bcd;
+	margin: 30px 0 10px 0;
+	font-size: 16px;
+}
+
+.blog_publish_date {
+	color: #919090;
+	line-height: 3px;
+	font-size: 12px;
+}
+
+.last_blog_content {
+	padding-right: 30px;
+	width: 210px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.lasted_content {
+	width: 410px;
+	height: 140px;
+	overflow: hidden;
+}
+
+.blog_publish_after {
+	color: #a31212;
+	line-height: 3px;
+	font-size: 12px;
+}
+
+.blog_left {
+	text-align: left;
+}
+
+.popular_post {
+	text-align: left;
+	float: left;
+	margin: 10px 0 0 0;
+	width: 210px;
+}
+
+.read_more {
+	font-size: 12px;
+	color: #3182fc;
+}
+
+.lastest_post {
+	text-align: left;
+	float: left;
+	margin: 10px 0 0 0;
+	width: 430px;
+	height: auto;
+}
+
+.post_title {
+	color: #a00e2f;
+	font-size: 40px;
+	margin: 30px 0 10px 0;
+}
+
+.google_widget {
+	width: 209px;
+	height: auto;
+	border: solid 1px #B6B6B6;
+	border-radius: 10px;
+}
+
+.google_widget_title {
+	margin: 0;
+	width: 209px;
+	height: 26px;
+	background: url("../images/google_widget_title.png")
+}
+
+.widget_contents {
+	padding: 3px;
+}
+
+.google_icon {
+	margin: 0 0 0 3px;
+	width: 52px;
+	height: 52px;
+	background: url("../images/google_icon.png") no-repeat;
+}
+
+.linked_in {
+	width: 210px;
+	height: auto;
+	line-height: 0.3em;
+}
+
+.facebook_box {
+	border: solid 1px #B6B6B6;
+}
+
+.facebox_title {
+	background: #ECEEF3;
+}
+
+.facebox_icon {
+	margin: 10px;
+	width: 113px;
+	height: 53px;
+	background: url("../images/facebook_icon.png") no-repeat;
+}
+
+.facebox_contents,.facebook_label,.facebook_footer {
+	margin-left: 10px;
+}
+
+.footer_left_side {
+	margin: 10px;
+	padding-left: 30px;
+	text-align: left;
+	width: 710px;
+	height: auto;
+}
+
+.yourname,.youremail,.yoursubject {
+	
+	width : 200px;
+}
+
+.yourmessage {
+	width: 640px;;
+}
+
+.footer_right_side {
+	width: 110px;
+}
+
+.footer_right_side {
+	text-align: left;
+}
+
+.footer_end {
+	width: auto;
+	height: 30px;
+}
+
+.youremail,.yourname,.yourmessage,.yoursubject {
+//	background-color: #EDEDED
+}
+
+/*------------------------------------------------------|	blog.html	|------------------------------------------------------*/
+/*------------------------------------------------------|	blog_inner.html	|------------------------------------------------------*/
+.comments_title_bar,.article_content {
+	
+}
+
+.comment_title {
+	margin: 10px 0 0 0;
+}
+
+.comment_btn {
+	float: right;
+	margin: 30px 0 0 0;
+}
+
+/*------------------------------------------------------|	blog_inner.html	|------------------------------------------------------*/
+/*------------------------------------------------------|	interview .html	|------------------------------------------------------*/
+.fromblog,.twiterfeed_box,.from_title {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: left;
+}
+
+/*------------------------------------------------------|	interview .html	|------------------------------------------------------*/
+.signup_box {
+	float: left;
+	margin: -100px 70px 100px 20%;
+}
+
+.signin_box {
+	float: left;
+	margin: -120px 0 0 150px;
+}
+
+.middle_button {
+	margin-top: -120px;
+	height: 30px;
+	border-radius: 30px 30px 30px 30px;
+	color: #bcbcbc;
+}
+
+.meta_btn {
+	padding-left: 15px;
+	border-left: solid 1px #cccccc;
+}
+
+.txt_center {
+	text-align: center;
+}
+
+.txt_left {
+	text-align: left;
+}
+
+.txt_right {
+	text-align: right;
+}
+
+input.error {
+	border-color: rgba(255, 50, 50, 0.8);
+	background-color: #FFE0E0;
+}
+
+input.error:focus {
+	border-color: rgba(255, 50, 50, 0.8);
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(255, 0, 0, 0.6);
+}
+

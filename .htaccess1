@@ -1,0 +1,5 @@
+#SetEnv APPLICATION_ENV development
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|template|video|robots\.txt)
+RewriteRule ^(.*)$ /home/panker90/public_html/index.php/$1 [L]

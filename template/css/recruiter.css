@@ -1,0 +1,678 @@
+@CHARSET "UTF-8";
+
+.wraper {
+	max-width: 998px;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+/****************  Header  *******************/
+.header {
+	width: auto;
+	height: 106px;
+	min-height: 106px;
+	background: url("../images/bg_recruiter_header_bar.png") repeat-x;
+}
+
+.header .caption {
+	padding-top: 12px;
+}
+
+.header .logo {
+	margin-top: 20px;
+	min-width: 200px;
+	height: 66px;
+	background: url("../images/hirevee_logo.png") no-repeat top center;
+}
+
+.header .menu_link {
+	float: left;
+	padding-top: 36px;
+}
+
+.header .menu_link .menu_item {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+.header .menu_link .menu_item .sub {
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header .menu_link .menu_item .sep {
+	background: url("../images/dot_sep.png") repeat-y top right;
+}
+
+.header .menu_link .menu_item a {
+	text-decoration: none;
+	color: #1e81ca;
+}
+
+.header .menu_link .menu_item a:hover {
+	color: #53a9e9;
+}
+
+.header .menu_link .menu_item .sub a {
+	text-decoration: none;
+	color: #A20E30;
+}
+
+.header .menu_link .menu_item .sub a:hover {
+	color: #A20E30;
+}
+
+.header .menu_link .menu_item a.active {
+	color: #202020;
+}
+
+.header .menu_link .menu_item a.active:hover {
+	color: #202020;
+}
+
+.content {
+	color: #101010;
+	height: auto;
+}
+
+.content form {
+	margin: 0px;
+}
+
+.content input {
+	margin: 0px;
+	height: 18px;
+}
+
+.content select {
+	margin: 0px;
+}
+
+/****************  JOb Add and Client Add  *******************/
+.content .position {
+	background: url("../images/bg_slidebar.png") repeat-y top right;
+	background-color: #F1F1F1;
+	min-height: 500px;
+}
+
+.content .position .control-group select {
+	max-width: 180px;
+	margin: 0px;
+}
+
+.content fieldset {
+	padding: 5px 10px;
+	text-align: left;
+}
+
+.content .control-group {
+	color: #606060;
+	margin-bottom: 7px;
+}
+
+.content .control-group label {
+	float: left;
+	min-width: 105px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: left;
+}
+
+.content .control-group controls {
+	display: inline-block;
+}
+
+.content .control-group input,.content .control-group textarea {
+	max-width: 165px;
+	margin: 0px;
+}
+
+.content .control-group .date_icon span {
+	height: 18px
+}
+
+.content .control-group input.datepicker {
+	max-width: 140px;
+}
+
+.content .control-group .actions {
+	margin: 20px 5px 20px 0;
+	text-align: right;
+}
+
+.content .seeking {
+	background: url("../images/bg_slidebar.png") repeat-y top right;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	min-height: 500px;
+}
+
+.content .seeking .control-group label {
+	float: left;
+	min-width: 75px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.content .seeking .control-group input {
+	max-width: 200px;
+}
+
+.content button {
+	font-weight: bold;
+	width: 120px;
+}
+
+.content .question {
+	background-color: #F1F1F1;
+	margin-left: 0px;
+	min-height: 500px;
+}
+
+.content .question .control-group label {
+	float: left;
+	min-width: 80px;
+	padding-right: 5px;
+	text-align: left;
+}
+
+.content .question .control-group input {
+	max-width: 255px;
+	width: 255px;
+}
+
+.content .question .control-group select {
+	max-width: 260px;
+	width: 260px;
+	margin: 0px;
+}
+
+.content .question .control-group #total_cost {
+	max-width: 70px;
+	text-align: left;
+}
+
+/****************  Jobs and Clients  *******************/
+.content .clientlist {
+	background: url("../images/bg_sidebar.png") repeat-y top right #FFFFFF;
+	min-width: 250px;
+	min-height: 500px;
+	height: 100%;
+}
+
+.content .clientlist .search {
+	background: url("../images/bg_sidebar_search.png") repeat-y top right
+		#F8F8F8;
+	min-height: 22px;
+	padding: 15px 20px;
+}
+
+.content .clientlist .search input {
+	width: 160px;
+	height: 22px;
+	border-right: 0px;
+}
+
+.content .clientlist .search .add-on {
+	width: 22px;
+	height: 22px;
+	background-color: #FFFFFF;
+	border-left: 0px;
+	vertical-align: middle;
+}
+
+#industry_coll {
+	overflow: visible;
+}
+
+.content .clientlist .accordion-group {
+	margin: 0px;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.content .clientlist .accordion {
+	margin: 0px;
+}
+
+.content .clientlist .accordion .accordion-inner {
+	padding: 0px;
+	border: 0px;
+}
+
+.content .clientlist .industry_group .accordion-heading {
+	height: 31px;
+	background: url("../images/bg_sidebar_main.png") no-repeat bottom right;
+	text-align: left;
+	font-weight: bold;
+	color: #A20E30;
+}
+
+.content .clientlist .industry_group .accordion-heading a {
+	padding: 5px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #A20E30;
+}
+
+.content .clientlist .industry_group .accordion-heading a.active {
+	font-weight: bold;
+	color: #2A2A2A;
+}
+
+.content .clientlist .accordion-group .accordion-heading a .exp {
+	float: right;
+}
+
+.content .clientlist .job_group .accordion-heading {
+	height: 40px;
+	background: url("../images/bg_sidebar_sub.png") no-repeat bottom right;
+	text-align: left;
+	font-weight: bold;
+	color: #006BBA;
+}
+
+.content .clientlist .job_group .accordion-heading a {
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #006BBA;
+}
+
+.content .clientlist a.active {
+	font-weight: bold;
+	color: #404040;
+}
+
+.content .clientlist .client-viewer div {
+	height: 50px;
+	padding: 10px 20px;
+	text-align: left;
+	border-top: 1px solid #E2E2E2;
+	font-weight: bold;
+	color: #006BBA;
+}
+
+.content .clientlist .client-viewer div.active {
+	background: white none;
+	color: #404040;
+}
+
+.content .clientlist div.nodata,.content .client_main div.nodata {
+	height: auto;
+	font-weight: bold;
+	color: #B94A48;
+	text-align: center;
+	margin: 0px;
+}
+
+.content .clientlist .client-viewer .photo {
+	width: 50px;
+	height: 50px;
+	border: 0px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.content .clientlist .client-viewer a {
+	padding-left: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.content .clientlist .client-viewer .exp {
+	float: right;
+	margin-top: 15px;
+}
+
+.content .clientlist .alert {
+	border-radius: 0px;
+	font-weight: bold;
+	margin: 0px;
+	height: auto;
+}
+
+.content .client_main {
+	background-color: #FFFFFF;
+	margin: 0px;
+	min-height: 500px;
+	border-right: 1px solid #E2E2E2;
+}
+
+.content .client_main fieldset {
+	padding: 30px 40px 30px 40px;
+}
+
+i.icon-email {
+	background: url("../images/icon_mail.png") no-repeat top left;
+	width: 16px;
+}
+
+.content .client_main .client_header .sendmail {
+	float: right;
+}
+
+.content .client_main .client_header h3 {
+	margin: 0px;
+	line-height: 30px;
+}
+
+.content .client_main .client_header .sub_name {
+	color: #202020;
+	font-weight: bold;
+}
+
+.content .client_main .client_header hr {
+	margin: 5px 0px;
+}
+
+.content .client_main .client_header .detail {
+	color: #606060;
+}
+
+.content .client_main .client_video {
+	margin: 20px 0;
+}
+
+.content .client_main .client_video .player {
+	min-width: 380px;
+	min-height: 250px;
+	width: 100%;
+}
+
+.content .client_main .client_video .controler {
+	margin-top: 1px;
+	width: auto;
+	height: 20px;
+	padding: 15px 0;
+	background: url("../images/bg_client_result_ctrl.png") repeat-x;
+}
+
+.content .client_main .controler .share {
+	min-height: 20px;
+	text-align: center;
+	background: url("../images/bg_vertical_bar.png") repeat-y top right;
+}
+
+.content .client_main .controler .share a {
+	color: #006BBA;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.content .client_main .controler .rating {
+	min-height: 20px;
+	text-align: center;
+}
+
+.content .client_main .quest_list {
+	
+}
+
+.content .client_main .quest_list table {
+	border: 1px solid #E2E2E2;
+}
+
+.content .client_main .quest_list table td {
+	height: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.content .client_main .quest_list table td {
+	height: auto;
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+}
+
+.content .client_main .quest_list table td.q_no {
+	width: 10px;
+	text-align: center;
+	background-color: #ECECEC;
+	color: #606060;
+	padding: 10px 5px;
+}
+
+.content .client_main .quest_list table td.q_subject {
+	background-color: #FFFFFF;
+	padding: 15px;
+	color: #006BBA;
+	text-align: left;
+}
+
+.content .client_main .quest_list table tr.active td.q_no {
+	width: 10px;
+	text-align: center;
+	background-color: #D8D8D8;
+	color: #606060;
+	padding: 10px 5px;
+}
+
+.content .client_main .quest_list table tr.active td.q_subject {
+	background-color: #ECECEC;
+	padding: 15px;
+	color: #303030;
+}
+
+.content .client_main .quest_list a.link_interview {
+	text-decoration: none;
+	color: #006BBA;
+}
+
+.content .client_main .quest_list table tr.active td a.link_interview,
+.content .client_main .quest_list table tr.active td a.link_interview:hover
+{
+	text-decoration: none;
+	color: #303030;
+}
+
+.content .client_main .quest_list .exp {
+	float: right;
+}
+
+.content .comments {
+	background-color: #F8F8F8;
+}
+
+.content .comments fieldset {
+	padding: 20px;
+	min-height: 500px;
+	margin: 0px;
+}
+
+.content .comments .notes {
+	color: #A20E30;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.content .comments .notes hr {
+	margin-top: 10px;
+}
+
+.content .comments .in_comment {
+	text-align: center;
+}
+
+.content .comments .in_comment .btn {
+	width: 100%;
+	height: 35px;
+	font-size: 16px;
+}
+
+.content .comments #new_comment {
+	min-height: 80px;
+	width: 93%;
+}
+
+.content .comments .comment_details {
+	color: #505050;
+}
+
+.content .comments .comment_details .pass_time {
+	color: #909090;
+	font-size: 12px;
+}
+
+/****************  Home  *******************/
+.content .list_header {
+	height: 35px;
+	background: url("../images/bg_table_head.png") repeat-x;
+	padding: 10px 40px 10px 20px;
+}
+.content .list_body {
+	min-height: 340px;
+	background: url("../images/bg_table_body.png") repeat-x top;
+	padding: 0px 20px;
+	height: 370px;
+	overflow: auto;
+}
+.content .result_table {
+	margin: 0px;
+}
+.content .result_table th {
+	vertical-align: middle;
+	color: #A20E30;
+	font-size: 16px;
+	padding: 5px;
+}
+.content .result_table td {
+	vertical-align: middle;
+	border-top: 1px dashed #DDDDDD;
+	color: #303030;
+	font-size: 14px;
+	height: 35px;
+	padding: 5px;
+}
+.content .result_table td.first {
+	border-top: 0px;
+}
+.content .result_table td i.icon-r-star {
+	background: url("../images/star-on.png") no-repeat 0px 0px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+    margin-right: 1px;
+}
+.content .transactions {
+	min-height: 50px;
+	background: url("../images/bg_table_foot.png") repeat-x;
+	padding: 20px 20px;
+}
+.content .transactions .funds {
+	padding-bottom: 20px;
+}
+.content .transactions .funds .sel_trans .caption {
+	margin-top: 10px;
+	font-weight: bold;
+}
+.content .transactions .funds .sel_trans {
+	color: #006BBA;
+	font-size: 16px;
+	text-align: left;
+}
+.content .transactions .funds #transaction {
+	width: 180px;
+	margin: 0px;
+}
+.content .transactions .funds button.btn {
+	height: 30px;
+}
+.content .transactions .funds .balance {
+	margin-top: 5px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+}
+.content .transactions .down_csv {
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+	background-color: #F0F0F0;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	vertical-align: middle;
+	color: #404040;
+}
+.content .transactions .down_csv input {
+	width: 150px;
+	height: 18px;
+	padding: 3px 4px;
+}
+.content .transactions .down_csv select {
+	width: 150px;
+	height: 25px;
+	padding: 3px 4px;
+}
+.content .transactions .down_csv button {
+	width: 30px;
+	height: 26px;
+	color: #A20E30;
+	margin-right: 20px;
+	padding: 2px 3px;
+}
+.content .transactions .down_csv .down_link {
+	color: #006BBA;
+	margin-top: 3px;
+}
+.content .transactions .trans_table {
+	color: #606060;
+}
+.content .transactions .trans_table th,
+.content .transactions .trans_table td {
+	border: 0px;
+}
+
+.content .funds_pay {
+	padding: 40px 90px;
+}
+
+/****************  Funds  *******************/
+.content .funds_pay {
+	height: auto;
+	padding: 40px 90px;
+	color: #404040;
+	text-align: left;
+}
+
+.content .funds_pay .funds-desc {
+	line-height: 20px;
+	font-size: 18px;
+}
+.funds_pay .funds-balance {
+	color: #C0C0C0;
+	font-size: 24px;
+	padding: 15px 0;
+}
+.funds_pay .balance-caption {
+	color: #404040;
+}
+.funds_pay .balance-desc {
+	font-size: 18px;
+}
+.funds_pay .balance-money {
+	color: #A20E30;
+}
+.funds_pay .pay-selector {
+	padding: 20px 0;
+	line-height: 20px;
+}
+.funds_pay .pay_caption {
+	font-size: 20px;
+	color: #0077C6;
+	padding-bottom: 5px;
+}
+.funds_pay .controls label {
+	padding-bottom: 10px;
+}
+.funds_pay .btn {
+	width: 120px;
+	height: 30px;
+	font-weight: bold;
+}
