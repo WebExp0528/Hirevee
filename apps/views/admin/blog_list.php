@@ -14,7 +14,7 @@ function delete_data(id) {
 		} else {
 			alert(result);
 		}
-	});
+	// });
 }
 </script>
 <div class="row-fluid sortable">		
